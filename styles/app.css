@@ -1,0 +1,25 @@
+@import url( "../components/Footer/footer.module.css" );
+@import url( "../components/Content/content.module.css" );
+@import url( "../components/Content/DataAPI/quotes.module.css" );
+@import url( "../components/Header/header.module.css" );
+@import url( "../components/Header/Logo/logo.module.css" );
+@import url( "../components/Menu/style_menu.module.css" );
+@import url( "../components/SideBar/sideBar.module.css" );
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+
+  
